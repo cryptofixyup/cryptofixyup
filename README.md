@@ -1,83 +1,32 @@
-# CryptoFixYup
+# Piotr Kozłowski
 
-**Founder · Software Architect · Open-Source Builder**
+**AI security & systems engineering · Founder, CryptoFixYup**
 
-Production-oriented engineering across **AI, security, blockchain intelligence, and systems software**.
+I build software that puts explicit controls around AI-generated decisions. My focus is deterministic authorization, lifecycle state machines, cryptographic integrity, and reproducible engineering evidence.
 
-> Build systems that are measurable, testable, secure, and useful in production.
+**Rust · TypeScript / Node.js · Python · GitHub Actions**
 
-## What I Build
+## Selected work
 
-I work at the boundary between applied AI and production infrastructure:
+| Project | What it contains |
+| --- | --- |
+| [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) | AI-agent authorization research: policy checks, transaction-bound approvals, simulation boundaries, lifecycle handling, and regression tests. |
+| [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | Logistics-focused scaffold with deterministic business constraints, an AI orchestration boundary, and operational APIs. |
+| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components with validation for invalid prices and a CI workflow for formatting, compilation, linting, and tests. |
+| [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry wire-decoder components with length, version, checksum, and semantic validation. |
 
-- **AI & Agents** — LLM applications, agent systems, evaluation, and ML tooling
-- **Security & DeFi** — transaction-risk analysis, scam intelligence, wallet and protocol security
-- **Systems Engineering** — Rust services, performance-critical runtimes, APIs, and distributed systems
-- **Graph Intelligence** — causal graphs, entity relationships, clustering, and risk propagation
-- **Developer Infrastructure** — CI/CD, testing, observability, deployment, and secure engineering workflows
-- **Operational Software** — automation and intelligence systems for real-world workflows
+## Engineering approach
 
-## Engineering Principles
+- Keep model reasoning separate from execution authority.
+- Make state transitions and failure modes explicit.
+- Turn discovered defects into regression tests.
+- Tie results to the exact code, fixtures, and environment evaluated.
+- Distinguish prototypes, passing tests, and demonstrated production behavior.
 
-**Evidence over assumptions.** Claims should be backed by tests, telemetry, reproducible experiments, or clearly stated uncertainty.
+Alpha Sentinel is under active development. Its README documents implemented components, historical CI evidence, and integration work still to be demonstrated.
 
-**Security by construction.** Validate inputs, minimize trust, make boundaries explicit, and fail closed where safety matters.
+## Work with me
 
-**Production before ornamentation.** Prefer the smallest architecture that satisfies the actual reliability, latency, security, and cost constraints.
+Repository security reviews, CI repair, and bounded reliability improvements for small engineering teams.
 
-**Performance is a product property.** Optimize latency, memory, reliability, and operating cost together.
-
-**Open source should be reproducible.** Clear interfaces, deterministic tests, useful documentation, and implementations that match the stated design.
-
-## Core Stack
-
-| Area | Technologies |
-|---|---|
-| Systems | Rust, Python, TypeScript/Node.js |
-| AI/ML | PyTorch, LLMs, agents, evaluation pipelines |
-| Data & Graph | PostgreSQL, Redis, Kafka/Redpanda, Neo4j, Qdrant |
-| Cloud & Runtime | Docker, Kubernetes, AWS, Vercel |
-| Engineering | GitHub Actions, CI/CD, observability, security testing |
-| Blockchain | EVM tooling, wallet intelligence, DeFi risk analysis |
-
-## Selected Work
-
-### SentinelAI / DeFi Security
-
-Security-oriented systems for blockchain intelligence, transaction analysis, wallet risk, scam detection, and real-time decision support.
-
-### AI Systems & Interpretability
-
-Applied ML workflows focused on efficient inference, model analysis, sparse representations, and deployable AI tooling.
-
-### High-Performance Infrastructure
-
-Rust-first components for workloads where latency, memory safety, throughput, and predictable behavior matter.
-
-### Operational Intelligence
-
-Automation and agent-driven systems designed to reduce manual work and turn operational data into actionable decisions.
-
-## How I Work
-
-Architecture starts with the business and security boundary, not the technology choice.
-
-The normal sequence is:
-
-`Define constraint → establish evidence → design boundary → implement smallest production slice → test adversarially → measure → scale`
-
-I value deterministic behavior, explicit failure modes, reproducible builds, and documentation that stays synchronized with the implementation.
-
-## Open Source
-
-This profile repository is a concise index of the engineering areas I work in. Individual repositories contain the implementation details, experiments, architecture decisions, and validation evidence.
-
-## Contact / Work
-
-GitHub: [@cryptofixyup](https://github.com/cryptofixyup)
-
-Selected projects are available through the repositories on this profile.
-
----
-
-> Money is cheap. Honesty is rare. Fairness, empathy, and kindness are the only moat that matters.
+[GitHub repositories](https://github.com/cryptofixyup?tab=repositories)
