@@ -25,7 +25,19 @@ I build software that puts explicit controls around AI-generated decisions. My f
 
 Alpha Sentinel is under active development. Its README documents implemented components, historical CI evidence, and integration work still to be demonstrated.
 
-## Work with me
+## Repository Security & CI Evidence Review
+
+**Introductory fixed price: £150** · **Read-only** · **48–72-hour target after scope and payment terms are agreed**
+
+I review one GitHub repository at an agreed commit, covering up to six GitHub Actions workflows. The deliverable is a concise evidence memo with exact-SHA source references, prioritized findings, CI coverage mapping, limitations, and actionable repair recommendations.
+
+**Scope:** workflow permissions and triggers, third-party action pinning, secrets exposure risks, release/publish controls, and gaps between configured checks and demonstrated CI behavior.
+
+**Boundaries:** no production credentials, penetration testing, deployment, compliance certification, guaranteed vulnerability discovery, or claim that source inspection proves runtime security. Repairs and verification are separately scoped and priced. The sample review of `pallets/click` is independent and was not commissioned or endorsed by that project.
+
+To discuss scope, email [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com) with the repository URL, target commit, and the CI/security question. No production secrets are needed for initial scoping.
+
+## Other work
 
 Repository security reviews, CI repair, and bounded reliability improvements for small engineering teams.
 
