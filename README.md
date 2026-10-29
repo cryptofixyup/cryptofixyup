@@ -4,7 +4,7 @@
 
 I build software that puts explicit controls around AI-generated decisions. My focus is deterministic authorization, lifecycle state machines, cryptographic integrity, and reproducible engineering evidence.
 
-**Rust · TypeScript / Node.js · Python · GitHub Actions**
+**Rust · TypeScript / Node.js · Python · C++ / JNI · GitHub Actions**
 
 ## Selected work
 
@@ -14,6 +14,7 @@ I build software that puts explicit controls around AI-generated decisions. My f
 | [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | Logistics-focused scaffold with deterministic business constraints, an AI orchestration boundary, and operational APIs. |
 | [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components with validation for invalid prices and a CI workflow for formatting, compilation, linting, and tests. |
 | [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry wire-decoder components with length, version, checksum, and semantic validation. |
+| [JNI Benchmark Harness (sample)](samples/jev-jni-benchmark-harness/) | C++17/JNI bridge, Java workload adapter, p50/p95 latency reporting, and a CI smoke build. Uses a synthetic workload until the actual JEV source/build is available; no JEV performance claim is made. |
 
 ## Engineering approach
 
