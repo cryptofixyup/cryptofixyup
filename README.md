@@ -1,60 +1,69 @@
 # Piotr Kozłowski
 
-**AI security & systems engineering · Founder, CryptoFixYup**
+**Independent AI Red Teaming · Adversarial Evaluations · Security Architecture**
 
-I build software that puts explicit controls around AI-generated decisions. My focus is deterministic authorization, lifecycle state machines, cryptographic integrity, and reproducible engineering evidence.
+Poland · English / Polish / German  
+GitHub: [@cryptofixyup](https://github.com/cryptofixyup) · Email: [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
 
-**Rust · TypeScript / Node.js · Python · C++ / JNI · GitHub Actions**
+I independently investigate how AI systems fail under adversarial pressure, ambiguous instructions, conflicting constraints and extended interactions. My work combines hands-on model-behaviour testing with security architecture, software engineering and evidence-led reporting.
 
-## Selected work
+I do not claim a PhD, university degree or professional certifications. My experience has been developed through independent project work and practical experimentation, without institutional research funding.
 
-| Project | What it contains |
+## Focus areas
+
+- Adversarial testing of model behaviour, instruction following and safety boundaries
+- Hallucination, unsupported certainty, contradiction and context-retention analysis
+- Prompt-injection and untrusted-input boundary evaluation
+- Agentic-system security: tool authority, approval boundaries and deterministic enforcement
+- Threat modelling, least privilege, isolation and auditability
+- Reproducible tests, regression evidence and technical findings
+
+## Selected public work
+
+| Project | Relevant work |
 | --- | --- |
-| [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) | AI-agent authorization research: policy checks, transaction-bound approvals, simulation boundaries, lifecycle handling, and regression tests. |
-| [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | Logistics-focused scaffold with deterministic business constraints, an AI orchestration boundary, and operational APIs. |
-| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components with validation for invalid prices and a CI workflow for formatting, compilation, linting, and tests. |
-| [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry wire-decoder components with length, version, checksum, and semantic validation. |
-| [JNI Benchmark Harness (sample)](samples/jev-jni-benchmark-harness/) | C++17/JNI bridge, Java workload adapter, p50/p95 latency reporting, and a CI smoke build. Uses a synthetic workload until the actual JEV source/build is available; no JEV performance claim is made. |
+| [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | AI orchestration boundary, deterministic business constraints, policy gates and auditability |
+| [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry decoding with length, version, checksum and semantic validation |
+| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components and CI checks for formatting, compilation, linting and tests |
+| [OBLITERATUS](https://github.com/cryptofixyup/OBLITERATUS) | Public repository contribution/workspace related to LLM refusal-mechanism research; attribution and individual contribution scope should be assessed from commit history |
+| [GitHub profile repositories](https://github.com/cryptofixyup?tab=repositories) | Additional engineering and research work |
 
-## Engineering approach
+Some security-evaluation work is held in private repositories and is not presented as publicly reproducible evidence. Private work can be discussed or demonstrated selectively where access and confidentiality permit.
 
-- Keep model reasoning separate from execution authority.
-- Make state transitions and failure modes explicit.
-- Turn discovered defects into regression tests.
-- Tie results to the exact code, fixtures, and environment evaluated.
-- Distinguish prototypes, passing tests, and demonstrated production behavior.
+## How I test
 
-Alpha Sentinel is under active development. Its README documents implemented components, historical CI evidence, and integration work still to be demonstrated.
+1. Define the expected behaviour, trust boundary and constraints.
+2. Construct an adversarial or failure-oriented test case.
+3. Record the exact prompt, configuration and observed output.
+4. Repeat the test and check whether the result is stable.
+5. Classify the finding: verified behaviour, inference, limitation or unknown.
+6. Assess impact without overstating exploitability.
+7. Produce a concise report with reproduction steps and recommended mitigations.
 
-## Paid engineering pilots
+I distinguish a model-policy failure from a demonstrated security vulnerability. I do not claim that exploratory conversation alone proves a production exploit.
 
-I take on small, fixed-scope tasks with written acceptance criteria and verifiable results. Introductory pilot prices are in GBP; final scope, schedule, and payment terms are agreed before work begins.
+## Engineering principles
 
-| Service | Pilot price | Scope and acceptance criterion |
-| --- | ---: | --- |
-| [CI Pipeline Rescue](services.md#1-ci-pipeline-rescue--introductory-pilot-250) | £250 | One failing or flaky GitHub Actions workflow; focused patch, regression check where feasible, and a recorded result. |
-| [AI Agent Authorization Integration](services.md#2-ai-agent-authorization-integration--introductory-pilot-650) | £650 | One existing agent workflow and one action boundary; explicit policy/approval handling, structured decision logs, and agreed regression tests. |
-| [Telemetry / Data-Integrity Repair](services.md#3-telemetry--data-integrity-repair--introductory-pilot-350) | £350 | One parser or ingestion boundary; invalid-input fixtures, focused fix, regression tests, and CI evidence. |
+- Evidence before confidence.
+- Reproducibility before conclusions.
+- AI may propose; deterministic controls decide.
+- Untrusted input must not acquire authority.
+- Approval, execution and verification are separate stages.
+- A passing test proves only the behaviour covered by that test.
 
-**Full scope and boundaries:** [services.md](services.md).
+## Technical toolkit
 
-### Evidence and limits
+Python · TypeScript / JavaScript · Rust · Git · GitHub Actions · CI-oriented testing · threat modelling · security architecture · AI model-behaviour evaluation
 
-- [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) documents its current implementation, test evidence, and production capabilities not yet demonstrated.
-- [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) contains Rust market-signal components and CI checks.
-- [pelican-rs](https://github.com/cryptofixyup/pelican-rs) contains telemetry decoding and validation components.
-- A test passing in a repository is evidence for that test and commit; it is not a universal production-security guarantee.
+## Background
 
-## Repository Security & CI Evidence Review
+Approximately 25–27 years of logistics and warehouse operations experience, alongside independent software and security-focused project development.
 
-For teams that specifically need a read-only review, I also offer a **£150 introductory review** of one GitHub repository at an agreed commit, covering up to six GitHub Actions workflows. The deliverable is a concise evidence memo with exact-SHA source references, prioritized findings, CI coverage mapping, limitations, and actionable repair recommendations.
-
-**Sample:** [Independent source-only GitHub Actions review of `pallets/click`](https://github.com/cryptofixyup/cryptofixyup/blob/main/samples/github-actions-review-pallets-click.md). This public-source demonstration was not commissioned by or endorsed by the Pallets project.
-
-The review is read-only. It does not include penetration testing, production credentials, deployment, compliance certification, guaranteed vulnerability discovery, or a claim that source inspection proves runtime security.
+**Formal credentials:** No PhD, university degree or professional certifications. Independent practitioner; no institutional research funding.
 
 ## Contact
 
-Email [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com) with the service name, repository URL, and the specific failure or workflow. Do not send secrets or credentials. No work begins until scope and payment terms are agreed in writing.
+For AI evaluation, adversarial testing, security architecture or technical assessment opportunities:
 
-[All public repositories](https://github.com/cryptofixyup?tab=repositories)
+[kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
+
