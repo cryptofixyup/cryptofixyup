@@ -9,6 +9,11 @@ I independently investigate how AI systems fail under adversarial pressure, ambi
 
 I do not claim a PhD, university degree or professional certifications. My experience has been developed through independent project work and practical experimentation, without institutional research funding.
 
+## Fixed-scope services
+
+- **[Repository Security & Architecture Review — £150](https://github.com/cryptofixyup/cryptofixyup/blob/main/REPOSITORY-REVIEW.md)** — evidence-linked review of one agreed repository revision, with prioritized findings and explicit limitations.
+- [Other engineering services](https://github.com/cryptofixyup/cryptofixyup/blob/main/services.md)
+
 ## Focus areas
 
 - Adversarial testing of model behaviour, instruction following and safety boundaries
@@ -63,7 +68,6 @@ Approximately 25–27 years of logistics and warehouse operations experience, al
 
 ## Contact
 
-For AI evaluation, adversarial testing, security architecture or technical assessment opportunities:
+For repository reviews, AI evaluation, adversarial testing, security architecture or technical assessment opportunities:
 
 [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
-
