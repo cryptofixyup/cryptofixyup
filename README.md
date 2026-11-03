@@ -1,73 +1,83 @@
 # Piotr Kozłowski
 
-**Independent AI Red Teaming · Adversarial Evaluations · Security Architecture**
+**Independent AI Systems Auditor · AI Red Teaming · Deterministic Security Architecture**
 
 Poland · English / Polish / German  
 GitHub: [@cryptofixyup](https://github.com/cryptofixyup) · Email: [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
 
-I independently investigate how AI systems fail under adversarial pressure, ambiguous instructions, conflicting constraints and extended interactions. My work combines hands-on model-behaviour testing with security architecture, software engineering and evidence-led reporting.
+I operate as an independent technical assurance practitioner examining whether AI-enabled systems are correctly specified, securely bounded, reliably implemented, and backed by reproducible evidence. My work combines adversarial model-behavior testing with systems programming (Rust, Python, TypeScript), zero-trust architecture, and strict evidentiary audit standards (E0–E5).
 
-I do not claim a PhD, university degree or professional certifications. My experience has been developed through independent project work and practical experimentation, without institutional research funding.
+I do not claim a PhD, university degree or formal institutional affiliations. My methodology and tooling have been developed through independent practitioner research, hands-on red teaming, and open technical verification.
 
-## Focus areas
+---
 
-- Adversarial testing of model behaviour, instruction following and safety boundaries
-- Hallucination, unsupported certainty, contradiction and context-retention analysis
-- Prompt-injection and untrusted-input boundary evaluation
-- Agentic-system security: tool authority, approval boundaries and deterministic enforcement
-- Threat modelling, least privilege, isolation and auditability
-- Reproducible tests, regression evidence and technical findings
+## Operating Standard: AI Systems Auditor Charter
 
-## Public engineering ecosystem
+My work enforces an explicit six-level evidentiary hierarchy:
+- **E0 (Unsubstantiated):** Unverified assertions, promotional claims, or marketing metrics.
+- **E1 (Assertion):** Stakeholder descriptions without independent reproduction data.
+- **E2 (Documentary):** S-1 filings, architectural specifications, design documents, and static snapshots.
+- **E3 (Artifact):** Inspected source code, schema definitions, build scripts, and structured test configs.
+- **E4 (Reproduced):** Independent test executions reproduced in isolated, controlled environments.
+- **E5 (Operational):** Continuous telemetry, immutable ledgers, and verified production runtimes.
 
-See the [CryptoFixYup public ecosystem map](ECOSYSTEM.md) for selected public projects grouped by authorization, data integrity, market research, vertical applications and evaluation. It distinguishes existing repository contents from proposed integration direction; it does not claim a deployed unified platform.
+*Core Principle: "Systems don't run on intent. Demand the receipt."*
 
-## Selected public work
+---
 
-| Project | Relevant work |
-| --- | --- |
-| [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | AI orchestration boundary, deterministic business constraints, policy gates and auditability |
-| [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) | Deterministic authorization controls for agentic systems; production signing and end-to-end execution remain unproven |
-| [Policy Activation Kernel](https://github.com/cryptofixyup/policy-activation-kernel) | Dependency-free reference policy kernel and deterministic transition vectors |
-| [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry decoding with length, version, checksum and semantic validation |
-| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components and CI checks |
-| [OBLITERATUS](https://github.com/cryptofixyup/OBLITERATUS) | Public workspace related to LLM refusal-mechanism research; individual contribution scope should be assessed from commit history |
+## Core Focus Areas
 
-Some security-evaluation work is held in private repositories and is not presented as publicly reproducible evidence. Private work can be discussed or demonstrated selectively where access and confidentiality permit.
+- **AI Systems & Agent Auditing:** Independent verification of agentic workflows, deterministic action gates, and tool permission boundaries.
+- **Adversarial Red Teaming:** Multi-turn jailbreak dynamics, refusal-mechanism boundary analysis, prompt-injection defenses, and context-retention failure modes.
+- **Deterministic Action Gates:** Enforcing human-in-the-loop and cryptographic verification before any agent executes irreversible operations.
+- **Cross-Chain Signal Intelligence:** Verification of multi-chain threat indicators (Time Sync, Funding Link, Bytecode Reuse, LP Pattern analysis).
+- **Supply-Chain & Runtime Hardening:** Clean-room container builds, dependency pinning, cgroup resource bounding, and SIEM forwarding verification.
 
-## How I test
+---
 
-1. Define the expected behaviour, trust boundary and constraints.
-2. Construct an adversarial or failure-oriented test case.
-3. Record the exact prompt, configuration and observed output.
-4. Repeat the test and check whether the result is stable.
-5. Classify the finding: verified behaviour, inference, limitation or unknown.
-6. Assess impact without overstating exploitability.
-7. Produce a concise report with reproduction steps and recommended mitigations.
+## Public Engineering & Research Ecosystem
 
-I distinguish a model-policy failure from a demonstrated security vulnerability. I do not claim that exploratory conversation alone proves a production exploit.
+| Project / Repository | Focus & Verified Scope | Evidence Level |
+|---|---|---|
+| [AI Systems Auditor Charter](https://github.com/cryptofixyup) | Role specification, operating standard, finding taxonomy, and audit ledger protocols | **E2 / E3** |
+| [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) | Deterministic authorization controls and execution gates for autonomous agent systems | **E3** |
+| [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | High-performance Rust telemetry decoding with length, version, checksum, and semantic validation | **E3 / E4** |
+| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal parsing, fixed-depth order books, and deterministic sequence validation | **E3** |
+| [Policy Activation Kernel](https://github.com/cryptofixyup/policy-activation-kernel) | Dependency-free reference policy kernel and deterministic state transition vectors | **E3 / E4** |
+| [OBLITERATUS](https://github.com/cryptofixyup/OBLITERATUS) | Public research workspace on LLM safety boundaries, refusal triggers, and adversarial prompt dynamics | **E3** |
 
-## Engineering principles
+*Note: Proprietary client audits and red-teaming evaluations remain in private repositories and are shared only under mutual confidentiality agreements.*
 
-- Evidence before confidence.
-- Reproducibility before conclusions.
-- AI may propose; deterministic controls decide.
-- Untrusted input must not acquire authority.
-- Approval, execution and verification are separate stages.
-- A passing test proves only the behaviour covered by that test.
+---
 
-## Technical toolkit
+## Engineering & Audit Principles
 
-Python · TypeScript / JavaScript · Rust · Git · GitHub Actions · CI-oriented testing · threat modelling · security architecture · AI model-behaviour evaluation
+1. **Evidence Before Assertion:** A claim is treated as unverified until supported by a test log, bytecode match, or reproducible ledger.
+2. **Deterministic Control Over Heuristics:** AI may propose actions; deterministic policy engines decide and execute.
+3. **Fail-Closed by Default:** Any parsing mismatch, ambiguous instruction, or missing parameter immediately aborts the execution path.
+4. **Separation of Concerns:** Governance, authorization, execution, and verification operate as distinct structural layers.
+5. **No Synthetic Pass Marks:** Passing a static benchmark proves only that specific test vector; real-world safety demands adversarial pressure testing.
 
-## Background
+---
 
-Approximately 25–27 years of logistics and warehouse operations experience, alongside independent software and security-focused project development.
+## Technical Stack & Tooling
 
-**Formal credentials:** No PhD, university degree or professional certifications. Independent practitioner; no institutional research funding.
+- **Systems & Languages:** Rust (1.75+), Python (3.10–3.12), TypeScript / JavaScript, Bash / POSIX Shell.
+- **Security & Networking:** Raw socket parsers, async TCP scanners, deterministic rate monitors, EIP-712 signature verification, zero-trust envelopes.
+- **Infra & DevOps:** Docker (cgroup v1/v2), Linux, GitHub Actions CI/CD, PostgreSQL, Redis, Kubernetes topologies.
 
-## Contact
+---
 
-For AI evaluation, adversarial testing, security architecture or technical assessment opportunities:
+## Background & Verification
 
-[kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
+- **Operations Experience:** ~25–27 years in logistics, warehouse operations, and transport systems (TSL), informing real-world operational failure analysis.
+- **Credentials:** Independent software practitioner and red-team researcher; no institutional research funding.
+
+---
+
+## Contact & Engagements
+
+For independent AI systems auditing, agentic red teaming, or deterministic security architecture reviews:
+
+**Email:** [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)  
+**GitHub:** [@cryptofixyup](https://github.com/cryptofixyup)
