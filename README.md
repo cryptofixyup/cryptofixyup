@@ -18,15 +18,20 @@ I do not claim a PhD, university degree or professional certifications. My exper
 - Threat modelling, least privilege, isolation and auditability
 - Reproducible tests, regression evidence and technical findings
 
+## Public engineering ecosystem
+
+See the [CryptoFixYup public ecosystem map](ECOSYSTEM.md) for selected public projects grouped by authorization, data integrity, market research, vertical applications and evaluation. It distinguishes existing repository contents from proposed integration direction; it does not claim a deployed unified platform.
+
 ## Selected public work
 
 | Project | Relevant work |
 | --- | --- |
 | [Autonomous Operations System](https://github.com/cryptofixyup/piotr-kozlowski-autonomous-system) | AI orchestration boundary, deterministic business constraints, policy gates and auditability |
+| [Alpha Sentinel](https://github.com/cryptofixyup/alpha-sentinel) | Deterministic authorization controls for agentic systems; production signing and end-to-end execution remain unproven |
+| [Policy Activation Kernel](https://github.com/cryptofixyup/policy-activation-kernel) | Dependency-free reference policy kernel and deterministic transition vectors |
 | [pelican-rs](https://github.com/cryptofixyup/pelican-rs) | Rust telemetry decoding with length, version, checksum and semantic validation |
-| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components and CI checks for formatting, compilation, linting and tests |
-| [OBLITERATUS](https://github.com/cryptofixyup/OBLITERATUS) | Public repository contribution/workspace related to LLM refusal-mechanism research; attribution and individual contribution scope should be assessed from commit history |
-| [GitHub profile repositories](https://github.com/cryptofixyup?tab=repositories) | Additional engineering and research work |
+| [market-monitor-rs](https://github.com/cryptofixyup/market-monitor-rs) | Rust market-signal components and CI checks |
+| [OBLITERATUS](https://github.com/cryptofixyup/OBLITERATUS) | Public workspace related to LLM refusal-mechanism research; individual contribution scope should be assessed from commit history |
 
 Some security-evaluation work is held in private repositories and is not presented as publicly reproducible evidence. Private work can be discussed or demonstrated selectively where access and confidentiality permit.
 
@@ -66,4 +71,3 @@ Approximately 25–27 years of logistics and warehouse operations experience, al
 For AI evaluation, adversarial testing, security architecture or technical assessment opportunities:
 
 [kpiotr210@gmail.com](mailto:kpiotr210@gmail.com)
-
